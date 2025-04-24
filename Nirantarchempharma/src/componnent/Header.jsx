@@ -12,7 +12,7 @@ function Header() {
           <nav className="header__nav">
             <ul className="header__nav-list">
               <li className="header__nav-item">
-                <NavLink to="/" activeClassName="active">
+                <NavLink to="/home" activeClassName="active">
                   Home
                 </NavLink>
               </li>
@@ -46,6 +46,7 @@ function Header() {
           </div>
         </div>
       </header>
+      
     </>
   );
 }

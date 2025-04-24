@@ -2,7 +2,8 @@ function Footer(){
     return(
         <div className="footer">
             <hr />
-            <p>© 2025 Nirantarchempharma. All rights reserved.</p>
+            
+            <p>© 2025  Nirantarchempharma. All rights reserved.</p>
         </div>
     );
 }

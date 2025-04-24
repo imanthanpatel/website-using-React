@@ -4,12 +4,11 @@
 function About() {
   return (
     <div className="about" id="about">
-      <details>
-        <summary>
+      {/* //smmary -detail */}
           <h1>About</h1>
-        </summary>
+        
         <p>Coming Soon</p>
-      </details>
+      
     </div>
   );
 }

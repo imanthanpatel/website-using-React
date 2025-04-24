@@ -3,7 +3,8 @@ import Header from './componnent/Header' // Ensure path and export are correct
 import About from './componnent/pages/About'
 import Services from './componnent/pages/Services'
 import Contact from './componnent/pages/Contact'
-import Footer from './componnent/Footer' // Ensure path and export are correct
+import Footer from './componnent/Footer'
+import Home from './componnent/pages/Home' // Ensure path and export are correct
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         
         
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />

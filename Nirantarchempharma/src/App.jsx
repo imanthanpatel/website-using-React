@@ -13,11 +13,11 @@ function App() {
       <Routes>
         
         
-        <Route path="/home" element={<Home />} />
+        <Route  path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Add other routes as needed */}
+        <Route path="/" element={<Home />} /> {/* Default route */}
       </Routes>
       <Footer />
     </Router>

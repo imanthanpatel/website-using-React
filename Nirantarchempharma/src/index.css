@@ -1,10 +1,10 @@
-*{
+/* *{
   padding-left: 20px;
   padding-right:20px;  
-  /* background-color: #f8f9fa; */
-  
+  background-color: #f8f9fa;
+} */
 
-}
+ 
 .header {
     display: flex;
     flex-direction: row; /* Align items horizontally */
@@ -149,7 +149,131 @@ details[open] summary h1 {
   margin: 0;
   text-align: center; /* Center the home message */
 }
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border: radius 50px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 80%, 0.151);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-tittle{
+  font-family: Arial,sans-serif;
+  margin: 0;
+  color: hsl(0,0%,20%);
+
+}
+.card .card-text{
+  font-family: Arial,sans-serif;
+  color: hsl(0,0%,30%);
+  
+
+}
 /* Footer styling */
 
+
+  .footer{
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .footer p{
+    margin: 0;
+    color: grey;
+  }
   
+  /* Contact US */
   
+  /* Form.css */
+
+.Form {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background-color: hsl(210, 20%, 96%);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  color:  hsl(245, 60%,4% );
+}
+
+.Form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Form label {
+  font-weight: 500;
+  color: #333;
+  margin-top: 12px;
+}
+
+.Form input,
+.Form textarea {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  size: 20px;
+}
+
+.Form input:focus,
+.Form textarea:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.Form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.Form button {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Form button:hover {
+  background-color: #4338ca;
+}
+
+.Form span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-size: 0.95rem;
+}
+.Form span a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: bold;
+}
